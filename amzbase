@@ -1,1 +1,55 @@
 
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <title> Home- Abdulrahman M Zubairu </title> <p>Date/Time: <span id="datetime"></span></p>
+   </head>
+        <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+   <body>
+                 
+           <div style="background-color:#00FFFF" style="background-size: 100%"style="font-family: 'Courier New', Courier, monospace">
+             <ul style="list-style-position: inherit">
+                    <li>
+                        <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <a href="#">About Me</a>
+
+                     </li>
+                     
+                     <li>
+                        <a href="#">My Skills</a>
+                     </li>
+                 
+                     <li>
+                        <a href="#">Contact Me</a>
+ 
+                     </li>
+                </ul>
+
+            </div>
+ 
+         </body>     
+    </head> 
+    <body>
+            <footer style="background-color: #00FFFF">
+                    <div>
+                            <br>
+                            <p style="text-align: center">
+                                 copyright (c) Abdulrahman M Zubairu
+                            </p>
+                        <script>
+                         window.alert("Hello Guest!");   
+                        </script>
+            
+                       </div>
+                   </footer>
+            
+                </body>
+            </html>
+            
